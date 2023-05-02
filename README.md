@@ -96,10 +96,12 @@ int main(void)
 ## i) When circuit is off:
 ![WhatsApp Image 2023-05-02 at 09 17 15](https://user-images.githubusercontent.com/123470785/235575315-d4b91168-8d65-4e49-a577-8ad8f181dbdc.jpg)
 ## ii)When circuit is on:
-C:\Users\SEC\OneDrive\Pictures\Saved Pictures\3on pmc.png
+![3on pmc](https://user-images.githubusercontent.com/123470785/235576841-3576c216-a1e7-495d-b77b-1f5fec03e484.png)
+
 ## Proteus layout(Add pdf screen shot of circuit here)
  
- 
+![circuit digrm pmc](https://user-images.githubusercontent.com/123470785/235576876-be83e764-9ff7-4761-83bd-a524e4f3a5b4.png)
+
  
  
 ## Result :
