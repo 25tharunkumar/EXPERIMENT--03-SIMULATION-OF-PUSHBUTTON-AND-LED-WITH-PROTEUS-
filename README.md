@@ -108,13 +108,16 @@ int main(void)
 
 ## Output screen shots of proteus  :
 ## i) When circuit is off:
-![WhatsApp Image 2023-05-02 at 09 17 15](https://user-images.githubusercontent.com/123470785/235575315-d4b91168-8d65-4e49-a577-8ad8f181dbdc.jpg)
+![image](https://github.com/25tharunkumar/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/123470785/344f39bb-7b92-4244-93c9-447210821cf3)
+
 ## ii)When circuit is on:
-![3on pmc](https://user-images.githubusercontent.com/123470785/235576841-3576c216-a1e7-495d-b77b-1f5fec03e484.png)
+![image](https://github.com/25tharunkumar/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/123470785/ec5f58d9-edce-4e51-b465-8285f0692cb7)
+
 
 ## Proteus layout(Add pdf screen shot of circuit here)
  
-![circuit digrm pmc](https://user-images.githubusercontent.com/123470785/235576876-be83e764-9ff7-4761-83bd-a524e4f3a5b4.png)
+![image](https://github.com/25tharunkumar/EXPERIMENT--03-SIMULATION-OF-PUSHBUTTON-AND-LED-WITH-PROTEUS-/assets/123470785/cd92b2d6-4d13-4159-ab81-262fccf55443)
+
 
  
  
