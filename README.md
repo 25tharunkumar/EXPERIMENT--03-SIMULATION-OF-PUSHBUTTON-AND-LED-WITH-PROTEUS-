@@ -72,7 +72,13 @@ We are now at the last part of step by step guide on how to simulate STM32 proje
 
 ## STM 32 CUBE PROGRAM :
 ```
+Developed by:M.tharunkumar
+Reference number:212222100056
+
 #include "main.h"
+#include"stdio.h"
+#include"stdbool.h"
+bool pm;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 int main(void)
@@ -80,14 +86,22 @@ int main(void)
   HAL_Init();
   SystemClock_Config();
   MX_GPIO_Init();
-  while (1)
-  {
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-	  HAL_Delay(500);
-	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
-	  HAL_Delay(500);
-  }
- }
+	  while (1)
+	    {
+	     pm= HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_1);
+	      if(pm==0)
+              {
+	  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  	HAL_Delay(1000);
+	  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  	HAL_Delay(1000);
+	       }
+	      else
+	       {
+	  	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	        }
+	     }
+  }
 ```
 
 
